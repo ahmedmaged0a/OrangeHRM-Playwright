@@ -1,0 +1,21 @@
+{
+  "name": "playwrite-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "npx playwright test tests/ui/Specs/E2e.spec.ts",
+    "test:debug": "npx playwright test tests/ui/Specs/E2e.spec.ts --debug",
+    "test:UI": "npx playwright test tests/ui/Specs/E2e.spec.ts --ui",
+    "test:headed": "npx playwright test tests/ui/Specs/E2e.spec.ts --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1"
+  }
+}
