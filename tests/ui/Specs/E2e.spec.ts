@@ -13,7 +13,7 @@ test.describe.configure({ mode: 'parallel' }); // Configure tests to run in seri
     }
     );
     test.afterAll(async () => {
-        console.info("Completed OrangeHRM E2E Tests");
+        console.info("Completed OrangeHRM Automation E2E Tests");
     });
 
 //============== Test Suites ===============
