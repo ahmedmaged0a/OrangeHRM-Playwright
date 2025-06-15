@@ -2,7 +2,7 @@ import { test } from '@playwright/test';
 import { POManager } from '../Pages/poManager'; // Import the Page Object Manager
 import TsData from '../../../testData/TestData';
 
-test.describe.configure({ mode: 'parallel' }); // Configure tests to run in serial mode
+test.describe.configure({ mode: 'serial' }); // Configure tests to run in serial mode
 
 //============== Page Object Manager ===============
     let poManager: POManager;
