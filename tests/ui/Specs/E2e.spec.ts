@@ -9,7 +9,7 @@ test.describe.configure({ mode: 'parallel' }); // Configure tests to run in seri
 
 //==============Hooks ===============
     test.beforeAll(async () => {
-        console.info("Starting OrangeHRM E2E Tests");
+        console.info("Starting OrangeHRM E2E Automation Tests");
     }
     );
     test.afterAll(async () => {
